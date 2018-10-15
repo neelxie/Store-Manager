@@ -1,0 +1,90 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5e4e4;
+}
+/* links */
+a{
+    text-decoration: none;
+}
+/*  */
+.cont_ain{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 16px 20px rgb(226, 206, 206);
+    background-color:black;
+    display: grid;
+}
+/* store manager would be logo*/
+.brand{
+    padding: 0px;
+    background-color: #ff652f;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 70px;
+    display: grid;
+}
+/* navigation bar with links */
+
+.navbar{
+    background-color: #0b0bd6;
+    height: 30px;
+    widows: 100%;
+    display: grid;
+}
+.nav{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+}
+.nav_item{
+    display: inline;
+}
+li a{
+    display: inline;
+    padding: 0px 5px 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: #f5e4e4;
+}
+.active{
+    background-color: #ff652f;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+}
+.wrapper{
+    background-color: slategray;
+    width: 760px;
+    height: 580px;
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:black;
+}
+.sales{
+    height: 203px;
+    padding: 10px 1px;
+    margin-top: 0px;
+}
+.first_table{
+    margin: 30px 88px;
+}
+.table_title{
+    margin-left: -295px;
+}
+/* page footer */
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: fantasy;
+}
