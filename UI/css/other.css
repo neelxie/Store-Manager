@@ -62,7 +62,7 @@ li a:hover{
 }
 .wrapper{
     background-color: slategray;
-    width: 760px;
+    width: 820px;
     height: 580px;
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
@@ -70,11 +70,19 @@ li a:hover{
     padding: 5px;
     text-align: center;
     color:black;
+    overflow: auto;
+}
+/* create sale button */
+.create_sale{
+    top: 20px;
+    padding: 13px;
+    width: 15%;
 }
 /* Tables and related elements */
 table{
     border-collapse: collapse;
-    width: 100%
+    width: 100%;
+    top:30px;
 }
 td, th{
     padding: 5px;
@@ -90,6 +98,19 @@ td, th{
 }
 .table_title{
     margin-left: -205px;
+}
+.table-footer{
+    padding-top: 8px;
+}
+/* button */
+button{
+    border-radius: 5px 5px 6px 5px;
+    color: black;
+    background-color: azure;
+}
+button:hover{
+    color: white;
+    background-color: #ff652f;
 }
 /* page footer */
 .footer{
