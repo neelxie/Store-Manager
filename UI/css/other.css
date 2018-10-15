@@ -71,6 +71,15 @@ li a:hover{
     text-align: center;
     color:black;
 }
+/* Tables and related elements */
+table{
+    border-collapse: collapse;
+    width: 100%
+}
+td, th{
+    padding: 5px;
+    border: 1px solid white;
+}
 .sales{
     height: 203px;
     padding: 10px 1px;
@@ -80,7 +89,7 @@ li a:hover{
     margin: 30px 88px;
 }
 .table_title{
-    margin-left: -295px;
+    margin-left: -205px;
 }
 /* page footer */
 .footer{
