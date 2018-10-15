@@ -7,7 +7,29 @@ html,body{
 a{
     text-decoration: none;
 }
-/*  */
+/* Change the background color */
+@media screen and(min-width:700px){
+    body{
+        background-color: #ff652f;
+    }
+    table{
+        display: none;
+        width: 100%;
+    }
+    /* navbar container */
+    .navbar{
+        overflow: hidden;
+        background-color: #ff652f;
+    }
+    /* navbar links */
+    .nav a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+}
 .cont_ain{
     height: 100%;
     width: 100%;
@@ -81,7 +103,7 @@ li a:hover{
 /* Tables and related elements */
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
     top:30px;
 }
 td, th{
