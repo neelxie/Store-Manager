@@ -28,15 +28,15 @@ body{
     font-size: 80px;
     text-align: center;
     font-size: 20px;
-    color: darkblue;
+    color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #9af0f3;
+    background-color: #ff652f;
     border-top-right-radius: 26px;
     border-top-left-radius: 25px;
 }
 /* login form */
 .input{
-    background-color: #806bc7;
+    background-color: slategray;
     margin-top: 1px;
     padding: 20px;
     height: 280px;
